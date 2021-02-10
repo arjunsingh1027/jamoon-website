@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -61,19 +61,22 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              Ja<span className="text-color-primary">moon</span>
             </h1>
             <div className="container-xs">
+              <h3>
+                We can lend a hand
+              </h3>
+              <h4>
+                Cover all aspects of your lending solutions
+              </h4>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Scale your Bank's business rapidly! We provide SAAS end-to end loan management service to financial institutions of all sizes. Covering the full loan lifecycle – origination, capturing information, financial analysis, risk assessment, credibility check, loan contracting and Fullfillment – our solutions make lending easier by improving customer onboarding, increasing transparency and streamlining back-office operations
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="http://jamoon.net/">
                     Get started
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
                     </Button>
                 </ButtonGroup>
               </div>
